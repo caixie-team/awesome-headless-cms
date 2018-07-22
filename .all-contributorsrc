@@ -1,0 +1,23 @@
+{
+  "projectName": "awesome-headless-cms",
+  "projectOwner": "caixie",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "baisheng",
+      "name": "Basil",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/678617?v=4",
+      "profile": "http://baisheng.me",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ]
+}

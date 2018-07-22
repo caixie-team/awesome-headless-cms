@@ -1,4 +1,5 @@
 <!-- Don't edit this file by hand. See CONTRIBUTING.md. -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 # Awesome CMS [![Awesome][awesome-image]][awesome-repo]
 
@@ -95,7 +96,7 @@ for details on generation and contribution._
                             </a>&nbsp;&nbsp;
                     </div>
                     <div>
-                            ★3,253
+                            ★3,254
                             |&nbsp;2018/07/17
                             <ins title="Last commit on 2018/07/17">ⓘ</ins>
                     </div>
@@ -412,6 +413,11 @@ System](documents/the-rise-of-the-headless-cms.pdf) by [@forrester](https://twit
 
 ## Contributors
 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars3.githubusercontent.com/u/678617?v=4" width="100px;"/><br /><sub><b>Basil</b></sub>](http://baisheng.me)<br />[💻](https://github.com/caixie/awesome-headless-cms/commits?author=baisheng "Code") [📖](https://github.com/caixie/awesome-headless-cms/commits?author=baisheng "Documentation") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 - [Baisheng Liu](https://github.com/baisheng)
 
 
