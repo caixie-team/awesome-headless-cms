@@ -22,9 +22,9 @@ for details on generation and contribution._
 | :sunglasses:           | Awesome List     |
 | ⓘ                      | Last Commit Date |
 
-    ## 
+## 
 
-    <table>
+<table>
         <thead>
         <tr>
                 <th>Name</th>
@@ -50,9 +50,9 @@ for details on generation and contribution._
         </tbody>
     </table>
 
-    ## JavaScript
+## JavaScript
 
-    <table>
+<table>
         <thead>
         <tr>
                 <th>Name</th>
@@ -74,7 +74,7 @@ for details on generation and contribution._
                             </a>&nbsp;&nbsp;
                     </div>
                     <div>
-                            ★6,347
+                            ★6,348
                             |&nbsp;2018/07/20
                             <ins title="Last commit on 2018/07/20">ⓘ</ins>
                     </div>
@@ -192,9 +192,9 @@ for details on generation and contribution._
         </tbody>
     </table>
 
-    ## Closed Source
+## Closed Source
 
-    <table>
+<table>
         <thead>
         <tr>
                 <th>Name</th>
