@@ -1,0 +1,5 @@
+name = "webhook"
+description = "The easiest way to build a custom CMS for your next website."
+url = "http://www.webhook.com"
+github_repo = "webhook/webhook"
+language = "javascript"

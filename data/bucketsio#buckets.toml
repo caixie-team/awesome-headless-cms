@@ -1,0 +1,5 @@
+name = "buckets"
+description = "A fast, simple way to build dynamic websites with Node.js. More about our vision."
+url = "http://buckets.io/"
+github_repo = "bucketsio/buckets"
+language = "javascript"

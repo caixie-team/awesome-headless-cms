@@ -1,0 +1,5 @@
+name = "dotcms"
+description = "dotCMS Hybrid CMS helps you create, manage, and orchestrate your content for an ever-changing digital world."
+url = "https://dotcms.com/"
+github_repo = "dotCMS/core"
+language = "javascript"

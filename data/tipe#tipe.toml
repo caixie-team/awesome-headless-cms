@@ -1,0 +1,6 @@
+name = "Tipe"
+description = "🎉 Next Generation API-first CMS for developers. Create your content with powerful editing tools and access it from anywhere with a GraphQL or REST API. Stop letting your CMS decide how you build your Apps. "
+url = "https://tipe.io/"
+github_repo = "tipeio/tipe"
+awesome_repo = "tipeio/awesome-tipe"
+language = "javascript"

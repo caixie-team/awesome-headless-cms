@@ -1,0 +1,25 @@
+{
+  "name": "enqueue",
+  "version": "1.0.2",
+  "description": "queue up function calls",
+  "keywords": [
+    "queue",
+    "simple",
+    "tiny",
+    "timeout",
+    "concurrency"
+  ],
+  "author": "Matthew Mueller <mattmuelle@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MatthewMueller/enqueue.git"
+  },
+  "dependencies": {
+    "sliced": "0.0.5"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "superagent": "^1.1.0"
+  },
+  "main": "index"
+}
