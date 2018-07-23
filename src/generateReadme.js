@@ -1,4 +1,5 @@
 const fs = require('fs');
+
 const toml = require('toml');
 const groupBy = require('lodash/groupBy');
 const sortBy = require('lodash/sortBy');
@@ -9,10 +10,6 @@ const Xray = require('x-ray');
 const Handlebars = require('handlebars');
 const moment = require('moment');
 const glob = require('glob');
-
-const readmeTemplate = Handlebars.compile(
-  fs.readFileSync('./README.md.hbs').toString()
-);
 
 const x = Xray({
   filters: {
@@ -45,7 +42,7 @@ const anchorify = (text) => (
 const GITHUB_URL = 'https://github.com';
 
 const numberWithCommas = (n) => (
-  n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+  n && n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
 );
 
 const fetchGitHubDetails = (githubURL) => (
@@ -71,7 +68,10 @@ const duplicatesForKey = (objectArray, key) => (
 );
 
 const generateReadme = () => {
-  const startedAt = moment();
+  const readmeTemplate = Handlebars.compile(
+    fs.readFileSync('./README.md.hbs').toString()
+  );
+
   const metaContents = fs.readFileSync('./meta.toml');
   const meta = camelizeKeys(toml.parse(metaContents));
   const dataFiles = glob.sync('data/*.toml');
@@ -107,7 +107,7 @@ const generateReadme = () => {
     };
   });
 
-  Promise.all(languageKeys.map((key) => {
+  return Promise.all(languageKeys.map((key) => {
     const cmsesForLanguage = cmsesByLanguage[key];
 
     const cmsPromises = cmsesForLanguage.map(
@@ -116,16 +116,21 @@ const generateReadme = () => {
         const awesomeURL = awesomeRepo && `${GITHUB_URL}/${awesomeRepo}`;
 
         if (githubRepo) {
-          return fetchGitHubDetails(githubURL).then(({ starCount, lastCommit }) => ({
-            awesomeURL,
-            name,
-            githubURL,
-            starCount,
-            starCountText: numberWithCommas(starCount),
-            lastCommit: lastCommit.format('YYYY/MM/DD'),
-            url,
-            description,
-          }));
+          return fetchGitHubDetails(githubURL).then(({ starCount, lastCommit }) => {
+            if (typeof starCount !== 'number') {
+              throw new Error(`Error: no star count for ${githubURL}`);
+            }
+            return {
+              awesomeURL,
+              name,
+              githubURL,
+              starCount,
+              starCountText: numberWithCommas(starCount),
+              lastCommit: lastCommit.format('YYYY/MM/DD'),
+              url,
+              description,
+            };
+          });
         }
 
         return {
@@ -147,8 +152,8 @@ const generateReadme = () => {
       return {
         name: languagesToHuman[key],
         headerColumns: compact([
-          'Name',
-          'Description',
+          '名称',
+          '描述',
         ]),
         cmses: sortedCMSES,
       };
@@ -160,14 +165,9 @@ const generateReadme = () => {
       generationTime: moment().format('MMMM Do, YYYY'),
       tocEntries,
     }));
-    const milliseconds = moment().diff(startedAt);
-    console.log(
-      `Finished README.md generation for ${allCMSES.length}` +
-      ` CMSes in ${milliseconds / 1000.0} seconds.`
-    );
-  }).catch((error) => {
-    console.error('Error generating readme', error);
+
+    return allCMSES;
   });
 };
 
-generateReadme();
+module.exports = generateReadme;

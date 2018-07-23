@@ -4,7 +4,8 @@
   "description": "📝 An Awesome List for Content Management Systems",
   "dependencies": {
     "all-contributors-cli": "^5.3.0",
-    "generate-awesome": "^0.1.1",
+    "commander": "^2.16.0",
+    "es6-promisify": "^6.0.0",
     "glob": "^7.1.2",
     "handlebars": "^4.0.11",
     "humps": "^2.0.1",
@@ -14,10 +15,13 @@
     "x-ray": "^2.3.3"
   },
   "scripts": {
-    "build": "npm run contributors:generate && generate-awesome generate",
-    "generateReadme": "generate-awesome generate",
+    "build": "npm run contributors:generate && bin/generate-awesome generate",
+    "generateReadme": "bin/generate-awesome generate",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate"
+  },
+  "bin": {
+    "generate-awesome": "bin/generate-awesome"
   },
   "author": "",
   "license": "MIT"

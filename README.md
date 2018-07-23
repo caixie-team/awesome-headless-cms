@@ -1,63 +1,28 @@
 <!-- Don't edit this file by hand. See CONTRIBUTING.md. -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
-# Awesome CMS [![Awesome][awesome-image]][awesome-repo]
+# Awesome Headless CMS [![Awesome][awesome-image]][awesome-repo]
+一个集合列表，包含 **15** 个开开源或闭源的去中心化内容管理系统集合(Headless-CMS)
 
-A collection of **16** open and closed source Content Management
-Systems (CMS) for your perusal. Check out [the blog post][] on the creation of
-Awesome CMS.
+_最后的生成时间为 July 23rd, 2018. 贡献方式请见 [CONTRIBUTING.md](/CONTRIBUTING.md)_
 
-_Last generated on July 22nd, 2018. See [CONTRIBUTING.md](/CONTRIBUTING.md)
-for details on generation and contribution._
-
-    - [](#)
-    - [JavaScript](#javascript)
-    - [Closed Source](#closed-source)
+## 内容介绍
 
 **Key**
 
 | Emoji                  | 含义          |
 | ---------------------- | ---------------- |
-| :octocat:              | GitHub Repo      |
-| :globe_with_meridians: | Official Website |
-| :sunglasses:           | Awesome List     |
-| ⓘ                      | Last Commit Date |
-
-## 
-
-<table>
-        <thead>
-        <tr>
-                <th>Name</th>
-                <th>Description</th>
-        </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td width="240">
-                    <div>
-                        <b>Perch Runway</b>
-                    </div>
-                    <div>
-                            <a href="https://perchrunway.com/" title="Website for Perch Runway">
-                                :globe_with_meridians:
-                            </a>&nbsp;&nbsp;
-                    </div>
-                    <div>
-                    </div>
-                </td>
-                <td>Powerful tools for you. Simplicity for your clients.</td>
-            </tr>
-        </tbody>
-    </table>
+| :octocat:              | GitHub 仓库地址      |
+| :globe_with_meridians: | 官方网站 |
+| :sunglasses:           | 资源列表     |
+| ⓘ                      | 最后提交时间 |
 
 ## JavaScript
 
 <table>
         <thead>
         <tr>
-                <th>Name</th>
-                <th>Description</th>
+                <th>名称</th>
+                <th>描述</th>
         </tr>
         </thead>
         <tbody>
@@ -75,7 +40,7 @@ for details on generation and contribution._
                             </a>&nbsp;&nbsp;
                     </div>
                     <div>
-                            ★6,348
+                            ★6,354
                             |&nbsp;2018/07/20
                             <ins title="Last commit on 2018/07/20">ⓘ</ins>
                     </div>
@@ -96,7 +61,7 @@ for details on generation and contribution._
                             </a>&nbsp;&nbsp;
                     </div>
                     <div>
-                            ★3,254
+                            ★3,257
                             |&nbsp;2018/07/17
                             <ins title="Last commit on 2018/07/17">ⓘ</ins>
                     </div>
@@ -120,33 +85,12 @@ for details on generation and contribution._
                             </a>
                     </div>
                     <div>
-                            ★1,742
+                            ★1,743
                             |&nbsp;2018/03/29
                             <ins title="Last commit on 2018/03/29">ⓘ</ins>
                     </div>
                 </td>
                 <td>🎉 Next Generation API-first CMS for developers. Create your content with powerful editing tools and access it from anywhere with a GraphQL or REST API. Stop letting your CMS decide how you build your Apps. </td>
-            </tr>
-            <tr>
-                <td width="240">
-                    <div>
-                        <b>buckets</b>
-                    </div>
-                    <div>
-                            <a href="https://github.com/bucketsio/buckets" title="GitHub Repo">
-                                :octocat:
-                            </a>&nbsp;&nbsp;
-                            <a href="http://buckets.io/" title="Website for buckets">
-                                :globe_with_meridians:
-                            </a>&nbsp;&nbsp;
-                    </div>
-                    <div>
-                            ★1,090
-                            |&nbsp;2015/05/25
-                            <ins title="Last commit on 2015/05/25">ⓘ</ins>
-                    </div>
-                </td>
-                <td>A fast, simple way to build dynamic websites with Node.js. More about our vision.</td>
             </tr>
             <tr>
                 <td width="240">
@@ -198,8 +142,8 @@ for details on generation and contribution._
 <table>
         <thead>
         <tr>
-                <th>Name</th>
-                <th>Description</th>
+                <th>名称</th>
+                <th>描述</th>
         </tr>
         </thead>
         <tbody>
@@ -246,22 +190,22 @@ for details on generation and contribution._
                     <div>
                     </div>
                 </td>
-                <td>Contentful is an API-first CMS focused on the simplicity of development. Manage structured content in websites and apps.</td>
+                <td>Contentful gives you an API-first, cloud-based platform to power your sites and apps, allowing you to create first-class user experiences. Stop burying your content in a CMS, empower it with a content infrastructure. </td>
             </tr>
             <tr>
                 <td width="240">
                     <div>
-                        <b>Contentful</b>
+                        <b>Contentstack</b>
                     </div>
                     <div>
-                            <a href="https://www.contentful.com" title="Website for Contentful">
+                            <a href="https://www.contentstack.com/" title="Website for Contentstack">
                                 :globe_with_meridians:
                             </a>&nbsp;&nbsp;
                     </div>
                     <div>
                     </div>
                 </td>
-                <td>Contentful is an API-first CMS focused on the simplicity of development. Manage structured content in websites and apps.</td>
+                <td>Contentstack is an API first, headless CMS giving developers development freedom and marketers a way to engage audiences in real time across multiple channels.</td>
             </tr>
             <tr>
                 <td width="240">
@@ -311,6 +255,21 @@ for details on generation and contribution._
             <tr>
                 <td width="240">
                     <div>
+                        <b>Perch Runway</b>
+                    </div>
+                    <div>
+                            <a href="https://perchrunway.com/" title="Website for Perch Runway">
+                                :globe_with_meridians:
+                            </a>&nbsp;&nbsp;
+                    </div>
+                    <div>
+                    </div>
+                </td>
+                <td>Powerful tools for you. Simplicity for your clients.</td>
+            </tr>
+            <tr>
+                <td width="240">
+                    <div>
                         <b>prismic</b>
                     </div>
                     <div>
@@ -342,7 +301,7 @@ for details on generation and contribution._
     </table>
 
 
-## Articles
+## 相关文章
 
 [What is a Headless CMS?](https://css-tricks.com/what-is-a-headless-cms/) by [@chriscoyer](https://github.com/chriscoyier)
 
@@ -399,27 +358,25 @@ for details on generation and contribution._
 [Building Decoupled Sites and Apps with GraphQL and Next.js](https://malloc.fi/building-decoupled-sites-and-apps-with-graphql-and-next-js) by [@velmu](https://twitter.com/velmu)
 
 
-## Documents
+## 文档
 
 [The Rise Of The Headless Content Management
 System](documents/the-rise-of-the-headless-cms.pdf) by [@forrester](https://twitter.com/forrester)
 [The case for headless CMS](documents/EffectiveUI_HeadlessCMS.pdf) by [@effectiveui](https://twitter.com/effectiveui/)
 
-### Resources
+## 资源
 
 [Decoupled CMS](http://decoupledcms.org/)
 [Headless CMS](https://headlesscms.org/)
 
 
-## Contributors
+## 贡献者 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 | [<img src="https://avatars3.githubusercontent.com/u/678617?v=4" width="100px;"/><br /><sub><b>Basil</b></sub>](http://baisheng.me)<br />[💻](https://github.com/caixie/awesome-headless-cms/commits?author=baisheng "Code") [📖](https://github.com/caixie/awesome-headless-cms/commits?author=baisheng "Documentation") |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-- [Baisheng Liu](https://github.com/baisheng)
-
 
 ## License
 

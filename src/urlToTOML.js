@@ -1,5 +1,6 @@
 const compact = require('lodash/compact');
 const Xray = require('x-ray');
+const promisify = require('es6-promisify');
 
 const x = Xray();
 
@@ -12,7 +13,7 @@ function scrape(url) {
     githubRepo = parts[4];
   }
 
-  x(url, {
+  const scraperPromise = promisify(x(url, {
     title: 'title',
     description: 'meta[name="description"]@content',
     metaUrl: 'span[itemprop="url"]',
@@ -21,10 +22,9 @@ function scrape(url) {
     githubSite: x('span[itemprop="url"]@text', {
       title: 'title',
     }),
-  })((err, data) => {
-    if (!data) {
-      return console.error(`Failed to scrape ${url}`);
-    }
+  }));
+
+  return scraperPromise().then((data) => {
     const title = data.title;
     const metaUrl = data.metaUrl;
     let description = data.description;
@@ -37,7 +37,6 @@ function scrape(url) {
     }
 
     const tomlArray = [
-      '[[cms]]',
       `name = "${(data.githubSite.title || githubRepo || title || '').trim()}"`,
       `description = "${(description || title || '').trim()}"`,
       `url = "${metaUrl || url}"`,
@@ -45,15 +44,8 @@ function scrape(url) {
       firstLanguage && `language = "${firstLanguage.toLowerCase()}"`,
     ];
 
-    console.log(compact(tomlArray).join('\n'));
+    return compact(tomlArray).join('\n');
   });
 }
 
-const url = process.argv[2];
-
-if (!url) {
-  console.error('No URL provided');
-  process.exit();
-}
-
-scrape(url);
+module.exports = scrape;
