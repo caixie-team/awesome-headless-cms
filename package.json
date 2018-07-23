@@ -15,7 +15,7 @@
     "x-ray": "^2.3.3"
   },
   "scripts": {
-    "build": "npm run contributors:generate && bin/generate-awesome generate",
+    "build": "npm run bin/generate-awesome generate && contributors:generate",
     "generateReadme": "bin/generate-awesome generate",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate"
