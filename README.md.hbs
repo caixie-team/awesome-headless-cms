@@ -6,6 +6,9 @@
 _最后的生成时间为 {{generationTime}}. 贡献方式请见 [CONTRIBUTING.md](/CONTRIBUTING.md)_
 
 ## 内容介绍
+{{#each tocEntries}}
+- [{{text}}](#{{anchor}})
+{{/each}}
 
 **Key**
 
@@ -20,55 +23,54 @@ _最后的生成时间为 {{generationTime}}. 贡献方式请见 [CONTRIBUTING.m
 ## {{name}}
 
 <table>
-        <thead>
-        <tr>
-            {{#each headerColumns}}
-                <th>{{this}}</th>
-            {{/each}}
-        </tr>
-        </thead>
-        <tbody>
-        {{#each cmses}}
-            <tr>
-                <td width="240">
-                    <div>
-                        <b>{{name}}</b>
-                    </div>
-                    <div>
-                        {{#if githubURL}}
-                            <a href="{{githubURL}}" title="GitHub Repo">
-                                :octocat:
-                            </a>&nbsp;&nbsp;
-                        {{/if}}
-                        {{#if url}}
-                            <a href="{{url}}" title="Website for {{name}}">
-                                :globe_with_meridians:
-                            </a>&nbsp;&nbsp;
-                        {{/if}}
-                        {{#if awesomeURL}}
-                            <a href="{{awesomeURL}}" title="Awesome List for {{name}}">
-                                :sunglasses:
-                            </a>
-                        {{/if}}
-                    </div>
-                    <div>
-                        {{#if starCountText}}
-                            ★{{starCountText}}
-                        {{/if}}
-                        {{#if lastCommit}}
-                            |&nbsp;{{lastCommit}}
-                            <ins title="Last commit on {{lastCommit}}">ⓘ</ins>
-                        {{/if}}
-                    </div>
-                </td>
-                <td>{{description}}</td>
-            </tr>
-        {{/each}}
-        </tbody>
-    </table>
+  <thead>
+    <tr>
+      {{#each headerColumns}}
+        <th>{{this}}</th>
+      {{/each}}
+    </tr>
+  </thead>
+  <tbody>
+    {{#each cmses}}
+      <tr>
+        <td width="240">
+          <div>
+            <b>{{name}}</b>
+          </div>
+          <div>
+            {{#if githubURL}}
+              <a href="{{githubURL}}" title="GitHub Repo">
+                :octocat:
+              </a>&nbsp;&nbsp;
+            {{/if}}
+            {{#if url}}
+              <a href="{{url}}" title="Website for {{name}}">
+                :globe_with_meridians:
+              </a>&nbsp;&nbsp;
+            {{/if}}
+            {{#if awesomeURL}}
+            <a href="{{awesomeURL}}" title="Awesome List for {{name}}">
+              :sunglasses:
+            </a>
+            {{/if}}
+          </div>
+          <div>
+            {{#if starCountText}}
+              ★{{starCountText}}
+            {{/if}}
+            {{#if lastCommit}}
+              |&nbsp;{{lastCommit}}
+              <ins title="Last commit on {{lastCommit}}">ⓘ</ins>
+            {{/if}}
+          </div>
+        </td>
+        <td>{{description}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
 
 {{/each}}
-
 
 ## 相关文章
 
