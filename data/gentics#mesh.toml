@@ -1,0 +1,5 @@
+name = "Gentics Mesh - The open source headless CMS for developers"
+description = "The open source headless CMS for developers"
+url = "https://getmesh.io"
+github_repo = "gentics/mesh"
+language = "java"
