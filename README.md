@@ -1,12 +1,13 @@
 <!-- Don't edit this file by hand. See CONTRIBUTING.md. -->
 
 # Awesome Headless CMS [![Awesome][awesome-image]][awesome-repo]
-一个集合列表，包含 **16** 个开开源或闭源的去中心化内容管理系统集合(Headless-CMS)
+一个集合列表，包含 **17** 个开开源或闭源的去中心化内容管理系统集合(Headless-CMS)
 
 _最后的生成时间为 July 23rd, 2018. 贡献方式请见 [CONTRIBUTING.md](/CONTRIBUTING.md)_
 
 ## 内容介绍
 - [GO](#go)
+- [Java](#java)
 - [JavaScript](#javascript)
 - [Closed Source](#closed-source)
 
@@ -53,6 +54,40 @@ _最后的生成时间为 July 23rd, 2018. 贡献方式请见 [CONTRIBUTING.md](
   </tbody>
 </table>
 
+## Java
+
+<table>
+  <thead>
+    <tr>
+        <th>名称</th>
+        <th>描述</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td width="240">
+          <div>
+            <b>Gentics Mesh - The open source headless CMS for developers</b>
+          </div>
+          <div>
+              <a href="https://github.com/gentics/mesh" title="GitHub Repo">
+                :octocat:
+              </a>&nbsp;&nbsp;
+              <a href="https://getmesh.io" title="Website for Gentics Mesh - The open source headless CMS for developers">
+                :globe_with_meridians:
+              </a>&nbsp;&nbsp;
+          </div>
+          <div>
+              ★167
+              |&nbsp;2018/07/19
+              <ins title="Last commit on 2018/07/19">ⓘ</ins>
+          </div>
+        </td>
+        <td>The open source headless CMS for developers</td>
+      </tr>
+  </tbody>
+</table>
+
 ## JavaScript
 
 <table>
@@ -77,7 +112,7 @@ _最后的生成时间为 July 23rd, 2018. 贡献方式请见 [CONTRIBUTING.md](
               </a>&nbsp;&nbsp;
           </div>
           <div>
-              ★6,355
+              ★6,356
               |&nbsp;2018/07/20
               <ins title="Last commit on 2018/07/20">ⓘ</ins>
           </div>
