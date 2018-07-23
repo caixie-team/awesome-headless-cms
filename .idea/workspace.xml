@@ -2,38 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73ee841b-e2a2-41a7-a41e-5bfd454f4360" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/README.md.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/.coveralls.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cliui/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cliui/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/wordwrap/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/wordwrap/README.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/wordwrap/example/center.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/wordwrap/example/meat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/wordwrap/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/wordwrap/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/wordwrap/test/break.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/wordwrap/test/idleness.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/wordwrap/test/wrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cliui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/test/cliui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/completion.sh.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/completion.sh.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/lib/completion.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/lib/completion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/lib/parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/lib/usage.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/lib/usage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/lib/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/lib/validation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,7 +18,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md.hbs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="338">
@@ -60,10 +40,19 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="414" lean-forward="true" selection-start-line="414" selection-end-line="414" />
+              <first_editor relative-caret-position="346">
+                <caret line="421" selection-start-line="421" selection-end-line="421" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -105,10 +94,10 @@
         <option value="$PROJECT_DIR$/data/cloud cms.toml" />
         <option value="$PROJECT_DIR$/data/contentful.toml" />
         <option value="$PROJECT_DIR$/data/webhook#webhook.toml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/README.md.hbs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -140,11 +129,6 @@
             <path>
               <item name="awesome-headless-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="awesome-headless-cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awesome-headless-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awesome-headless-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,12 +176,12 @@
       <option name="presentableId" value="Default" />
       <updated>1532261056168</updated>
       <workItem from="1532261058428" duration="2108000" />
-      <workItem from="1532263762254" duration="9845000" />
+      <workItem from="1532263762254" duration="10202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11953000" />
+    <option name="totallyTimeSpent" value="12310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -209,9 +193,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32903227" />
       <window_info anchor="right" id="FAQ Robot" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.124542125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.124542125" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Job Explorer" order="2" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -440,13 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.all-contributorsrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -454,27 +431,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="148" selection-start-line="148" selection-end-line="150" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="437">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="414" lean-forward="true" selection-start-line="414" selection-end-line="414" />
+          <first_editor relative-caret-position="346">
+            <caret line="421" selection-start-line="421" selection-end-line="421" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md.hbs">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="148" selection-start-line="148" selection-end-line="150" selection-end-column="34" />
+        <state relative-caret-position="475">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
         </state>
       </provider>
     </entry>

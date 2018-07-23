@@ -1,4 +1,5 @@
 <!-- Don't edit this file by hand. See CONTRIBUTING.md. -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 # Awesome CMS [![Awesome][awesome-image]][awesome-repo]
 
@@ -6,7 +7,7 @@ A collection of **16** open and closed source Content Management
 Systems (CMS) for your perusal. Check out [the blog post][] on the creation of
 Awesome CMS.
 
-_Last generated on July 23rd, 2018. See [CONTRIBUTING.md](/CONTRIBUTING.md)
+_Last generated on July 22nd, 2018. See [CONTRIBUTING.md](/CONTRIBUTING.md)
 for details on generation and contribution._
 
     - [](#)
@@ -74,7 +75,7 @@ for details on generation and contribution._
                             </a>&nbsp;&nbsp;
                     </div>
                     <div>
-                            ★6,354
+                            ★6,348
                             |&nbsp;2018/07/20
                             <ins title="Last commit on 2018/07/20">ⓘ</ins>
                     </div>
@@ -95,7 +96,7 @@ for details on generation and contribution._
                             </a>&nbsp;&nbsp;
                     </div>
                     <div>
-                            ★3,257
+                            ★3,254
                             |&nbsp;2018/07/17
                             <ins title="Last commit on 2018/07/17">ⓘ</ins>
                     </div>
@@ -119,7 +120,7 @@ for details on generation and contribution._
                             </a>
                     </div>
                     <div>
-                            ★1,743
+                            ★1,742
                             |&nbsp;2018/03/29
                             <ins title="Last commit on 2018/03/29">ⓘ</ins>
                     </div>
@@ -410,13 +411,15 @@ System](documents/the-rise-of-the-headless-cms.pdf) by [@forrester](https://twit
 [Headless CMS](https://headlesscms.org/)
 
 
-## Contributors [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 | [<img src="https://avatars3.githubusercontent.com/u/678617?v=4" width="100px;"/><br /><sub><b>Basil</b></sub>](http://baisheng.me)<br />[💻](https://github.com/caixie/awesome-headless-cms/commits?author=baisheng "Code") [📖](https://github.com/caixie/awesome-headless-cms/commits?author=baisheng "Documentation") |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+- [Baisheng Liu](https://github.com/baisheng)
+
 
 ## License
 
