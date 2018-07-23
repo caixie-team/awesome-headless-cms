@@ -1,0 +1,3 @@
+- [ ] 验证我正在添加的 Headless CMS 是能够访问的.
+- [ ] 已阅读过贡献方式文档 [CONTRIBUTING.md](https://github.com/caxie-top/awesome-headless-cms/blob/master/CONTRIBUTING.md).
+- [ ] 没有去生成 README.md 文件.

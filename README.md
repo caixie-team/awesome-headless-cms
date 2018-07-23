@@ -40,7 +40,7 @@ _最后的生成时间为 July 23rd, 2018. 贡献方式请见 [CONTRIBUTING.md](
                             </a>&nbsp;&nbsp;
                     </div>
                     <div>
-                            ★6,354
+                            ★6,355
                             |&nbsp;2018/07/20
                             <ins title="Last commit on 2018/07/20">ⓘ</ins>
                     </div>
@@ -301,6 +301,7 @@ _最后的生成时间为 July 23rd, 2018. 贡献方式请见 [CONTRIBUTING.md](
     </table>
 
 
+
 ## 相关文章
 
 [What is a Headless CMS?](https://css-tricks.com/what-is-a-headless-cms/) by [@chriscoyer](https://github.com/chriscoyier)
@@ -360,13 +361,15 @@ _最后的生成时间为 July 23rd, 2018. 贡献方式请见 [CONTRIBUTING.md](
 
 ## 文档
 
-[The Rise Of The Headless Content Management
-System](documents/the-rise-of-the-headless-cms.pdf) by [@forrester](https://twitter.com/forrester)
+[The Rise Of The Headless Content Management System](documents/the-rise-of-the-headless-cms.pdf) by [@forrester](https://twitter.com/forrester)
+
 [The case for headless CMS](documents/EffectiveUI_HeadlessCMS.pdf) by [@effectiveui](https://twitter.com/effectiveui/)
+
 
 ## 资源
 
 [Decoupled CMS](http://decoupledcms.org/)
+
 [Headless CMS](https://headlesscms.org/)
 
 
@@ -377,6 +380,7 @@ System](documents/the-rise-of-the-headless-cms.pdf) by [@forrester](https://twit
 | [<img src="https://avatars3.githubusercontent.com/u/678617?v=4" width="100px;"/><br /><sub><b>Basil</b></sub>](http://baisheng.me)<br />[💻](https://github.com/caixie/awesome-headless-cms/commits?author=baisheng "Code") [📖](https://github.com/caixie/awesome-headless-cms/commits?author=baisheng "Documentation") |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
 
 ## License
 
