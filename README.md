@@ -412,7 +412,10 @@ System](documents/the-rise-of-the-headless-cms.pdf) by [@forrester](https://twit
 
 ## Contributors [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
-<!-- ALL-CONTRIBUTORS-LIST: START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars3.githubusercontent.com/u/678617?v=4" width="100px;"/><br /><sub><b>Basil</b></sub>](http://baisheng.me)<br />[💻](https://github.com/caixie/awesome-headless-cms/commits?author=baisheng "Code") [📖](https://github.com/caixie/awesome-headless-cms/commits?author=baisheng "Documentation") |
+| :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## License

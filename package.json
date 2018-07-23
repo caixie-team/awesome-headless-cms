@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "📝 An Awesome List for Content Management Systems",
   "dependencies": {
+    "all-contributors-cli": "^5.3.0",
+    "generate-awesome": "^0.1.1",
     "glob": "^7.1.2",
     "handlebars": "^4.0.11",
     "humps": "^2.0.1",
@@ -12,9 +14,10 @@
     "x-ray": "^2.3.3"
   },
   "scripts": {
-    "generateReadme": "node scripts/generateReadme.js",
-    "websiteToToml": "node scripts/urlToToml.js $1",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run contributors:generate && generate-awesome generate",
+    "generateReadme": "generate-awesome generate",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "author": "",
   "license": "MIT"
